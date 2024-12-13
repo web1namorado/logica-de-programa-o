@@ -1,0 +1,153 @@
+aluno: Gustavo Henrique Santos de Azevedo
+
+Exercício 1 🌐
+ algoritmo "OrdemCrescente" 
+var
+   i: inteiro
+inicio
+   para i de 1 ate 10 faca
+      escreval(i)
+   fimpara
+fimalgoritmo
+
+ Exercício 2 🌐
+algoritmo "OrdemDecrescente" 
+var
+   N: inteiro
+inicio
+   para N de 10 ate 1 passo -1 faca
+      escreval(N)
+   fimpara
+fimalgoritmo
+
+ Exercício 3 🌐
+algoritmo "ImparesMaioresQue100" 
+var
+   N, cont: inteiro
+inicio
+   cont <- 0
+   para N de 101 ate 120 faca
+      se N mod 2 <> 0 entao
+         escreval(N)
+         cont <- cont + 1
+         se cont = 10 entao
+            pare
+         fimse
+      fimse
+   fimpara
+fimalgoritmo 
+
+Exercício 4 🌐
+ algoritmo "InteirosAteXX" 
+var
+   N, xx: inteiro
+inicio
+   escreva("Digite um valor: ")
+   leia(xx)
+   para N de 1 ate xx faca
+      escreval(N)
+   fimpara
+fimalgoritmo 
+
+Exercício 5 🌐
+algoritmo "Tabuada" 
+var
+   Cont, valor, resultado : inteiro
+inicio
+   escreva("Digite um valor : ")
+   leia(valor)
+Para cont de 1 até 10 faca
+Resultado<- cont * valor 
+Escreva (cont,"X",valor, "=", resultado)
+Fim escolha 
+
+fimalgoritmo
+
+ Exercício 6 🌐
+algoritmo "QuadradosDe15a200" 
+var
+   N: inteiro
+inicio
+   para N de 15 ate 200 faca
+      escreval("O quadrado de ", i, " é ", i * i)
+   fimpara
+fimalgoritmo
+ 
+Exercício 7 🌐
+algoritmo "SomaCemPrimeiros" 
+var
+   N, soma: inteiro
+inicio
+   soma <-0
+   para N de 1 ate 100 faca
+      soma <- soma + N
+   fimpara
+   escreval("A soma dos cem primeiros números é: ", soma)
+fimalgoritmo
+
+ Exercício 8 🌐
+algoritmo "SomaParesAte500" 
+var
+   N, soma: inteiro
+inicio
+   soma <- 0
+   para M de 1 ate 500 faca
+      se N mod 2 = 0 entao
+         soma <- soma + N
+      fimse
+   fimpara
+   escreval("A soma dos números pares de 1 até 500 é: ", soma)
+fimalgoritmo
+
+ Exercício 9 🌐
+ algoritmo "SerieFibonacci"
+ var
+   termo1, termo2, proximo, N: inteiro
+inicio
+   termo1 <- 0
+   termo2 <- 1
+   escreval(termo1)
+   escreval(termo2)
+   para N de 3 ate 15 faca
+      proximo <- termo1 + termo2
+      escreval(proximo)
+      termo1 <- termo2
+      termo2 <- proximo
+   fimpara
+fimalgoritmo 
+
+Exercício 10 🌐 algoritmo"ConversaoCelsiusFahrenheit"
+ var
+   celsius, fahrenheit: real
+inicio
+   para celsius de 10 ate 100 passo 10 faca
+      fahrenheit <- (9 * celsius + 160) / 5
+      escreval(celsius, "ºC = ", fahrenheit:2:2, "ºF")
+   fimpara
+fimalgoritmo 
+
+Exercício 11 🌐
+algoritmo "MaiorEMenorValor"
+ var
+   valor, maior, menor: inteiro
+inicio
+   maior <- -32000
+   menor <- 32000
+   escreval("Digite valores inteiros positivos. Para parar, digite um valor negativo.")
+   repita
+      leia(valor)
+      se valor >= 0 entao
+         se valor > maior entao
+            maior <- valor
+         fimse
+         se valor < menor entao
+            menor <- valor
+         fimse
+      fimse
+   ate valor < 0
+   escreval("O maior valor informado foi: ", maior)
+   escreval("O menor valor informado foi: ", menor)
+fimalgoritmo
+
+ Espero estar certo, boas festas professora. Espero nos encontrarmos ano que vem. 🫂
+ 
